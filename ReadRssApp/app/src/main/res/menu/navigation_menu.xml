@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:title="Báo khác">
+        <menu>
+            <item
+                android:id="@+id/news_vnExpress"
+                android:icon="@drawable/vnexpress"
+                android:title="vnexpress" />
+            <item
+                android:id="@+id/news_24h"
+                android:icon="@drawable/news24h"
+                android:title="24h" />
+            <item
+                android:id="@+id/news_zing"
+                android:icon="@drawable/zingnews"
+                android:title="zingnews" />
+        </menu>
+    </item>
+
+    <item android:title="Chuyên mục">
+        <menu>
+            <item
+                android:id="@+id/world_news"
+                android:title="Thế giới" />
+            <item
+                android:id="@+id/sports_news"
+                android:title="Thể thao" />
+            <item
+                android:id="@+id/entertainment_news"
+                android:title="Giải trí" />
+            <item
+                android:id="@+id/business_news"
+                android:title="Kinh doanh" />
+            <item
+                android:id="@+id/technology_news"
+                android:title="Công nghệ" />
+        </menu>
+    </item>
+
+   
+
+
+
+</menu>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        app:showAsAction="always"
+        android:title="Chức năng" >
+        <menu >
+            <item
+                app:showAsAction="never"
+                android:id="@+id/menuFeedbackEmail"
+                android:icon="@drawable/ic_email"
+                android:title="Gửi Email góp ý" />
+            <item
+                app:showAsAction="never"
+                android:id="@+id/menuExitApp"
+                android:icon="@drawable/ic_exit"
+                android:title="Đăng xuất app" />
+            <item
+                android:id="@+id/newsSaved"
+                android:icon="@drawable/ic_saved"
+                android:title="Tin tức đã lưu" />
+
+        </menu>
+
+    </item>
+
+</menu>
